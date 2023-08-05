@@ -1,0 +1,60 @@
+{
+  "extensionName": {
+    "message": "Notado",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Sends notes to Notado",
+    "description": "Description of the add-on."
+  },
+
+  "menuItemSendSelection": {
+    "message": "Send Selection to Notado",
+    "description": "Title of context menu item that sends a selection to Notado when clicked."
+  },
+
+  "menuItemSendCommentLink": {
+    "message": "Send Comment Link to Notado",
+    "description": "Title of context menu item that sends a permalink to Notado when clicked."
+  },
+
+  "menuItemSendThreadReaderLink": {
+    "message": "Send Twitter Thread Link to Notado",
+    "description": "Title of context menu item that sends a Thread Reader link to Notado when clicked."
+  },
+  "notificationTitleNotado": {
+    "message": "Saved!",
+    "description": "Title of the notification when an item has been successfully sent."
+  },
+
+  "notificationTitleTryAgain": {
+    "message": "Could not save note!",
+    "description": "Title of the notification when an item has failed to send."
+  },
+
+  "notificationMessageTryAgain": {
+    "message": "Try again in a few moments",
+    "description": "Message of the notification when an item failed to send."
+  },
+
+  "notificationTitleUnsupportedLink": {
+    "message": "Unsupported Link",
+    "description": "Message of the notification when an item failed to send."
+  },
+
+  "notificationMessageOnlyTheseWebsites": {
+    "message": "Only comment links from supported websites can be saved",
+    "description": "Message of the notification when an item failed to send."
+  },
+
+  "menuItemKullishPage": {
+    "message": "Read comments on Kullish",
+    "description": "Title of context menu item that sends the page to Kullish by Notado when clicked."
+  },
+
+  "menuItemKindleImport": {
+    "message": "Save these highlights to Notado",
+    "description": "Title of context menu item that saves Kindle highlights to Notado when clicked."
+  }
+}

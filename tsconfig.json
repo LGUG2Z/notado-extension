@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "files": [
+    "./background.ts"
+  ],
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es5",
+    "module": "amd",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "sourceMap": true,
+    "outFile": "./background.js",
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

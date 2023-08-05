@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/firefox-webext-browser": "^111.0.1",
+    "@types/webextension-polyfill": "^0.10.1"
+  }
+}

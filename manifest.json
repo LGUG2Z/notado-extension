@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "0.0.18",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "notifications",
+    "cookies",
+    "https://*.notado.app/",
+    "https://notado.ngrok.io/"
+  ],
+  "background": {
+    "scripts": ["browser-polyfill.js", "background.js"]
+  },
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://read.amazon.com/notebook*"],
+      "js": ["html-sender.js"]
+    }
+  ]
+}

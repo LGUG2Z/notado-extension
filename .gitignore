@@ -1,0 +1,7 @@
+node_modules/
+web-ext-artifacts/
+*.js
+*.js.map
+*.tsbuildinfo
+!browser-polyfill.js
+!html-sender.js
